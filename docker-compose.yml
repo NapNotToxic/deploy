@@ -3,4 +3,4 @@ services:
   nginx:
     image: NapNotToxic/docker-cicd:2024m291151
     ports:
-  - "8080:80"
+      - "8080:80"
