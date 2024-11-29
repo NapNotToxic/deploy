@@ -2,7 +2,5 @@ version: '3'
 services:
   nginx:
     image: taict/docker-cicd:2024m291151
-nginx:
-image: nginx
-ports:
+    ports:
   - "8080:80"
